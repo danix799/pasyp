@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>YPFB</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/material.indigo-blue.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+      .mdl-textfield{
+            display: flex;
+    width: 100%;
+      }
+      .mdl-data-table  th, .mdl-data-table td{
+          text-align: left;
+      }
+      .mdl-data-table{
+          width: 100%;
+      }
+
+      #file { display: none }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-800">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">YPFB</span>
+          <div class="mdl-layout-spacer"></div>
+          
+        </div>
+      </header>
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
+          <div class="demo-content mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--8-col">
+
+            <h3>Administración de Pasantías</h3>
+              <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+                  <thead>
+                  <tr>
+                      <th>ID</th>
+                      <th>Convocatorio</th>
+                      <th>Área de Interés</th>
+                      <th>Nombre Completo</th>
+                      <th>Profesión</th>
+                      <th></th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <td>1</td>
+                      <td>0001</td>
+                      <td>SISTEMAS</td>
+                      <td>JUAN MANUEL MENDEZ CUELLAR</td>
+                      <td>ING DE SISTEMAS</td>
+                      <td>
+                          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+                              <i class="material-icons">insert_drive_file</i>
+                          </button>
+                          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+                              <i class="material-icons">edit</i>
+                          </button>
+
+                      </td>
+
+                  </tr>
+                  </tbody>
+              </table>
+
+          </div>
+        </div>
+        <footer class="demo-footer mdl-mini-footer">
+          <div class="mdl-mini-footer--left-section">
+            <ul class="mdl-mini-footer--link-list">
+              <li><a href="#">Correo: YPFB@GMAIL.COM</a></li>
+              <li><a href="#">TELF: 77727271</a></li>
+              <!--li><a href="#">User Agreement</a></li-->
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+   
+    <script src="js/material.min.js"></script>
+  </body>
+</html>
