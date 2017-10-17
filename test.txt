@@ -1,0 +1,8 @@
+telefono y correo
+
+busqueda
+-profesion
+-area
+
+
+crear cuenta de usuario adm
